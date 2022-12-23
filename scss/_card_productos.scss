@@ -1,0 +1,41 @@
+@import "variables";
+
+@mixin card-productos($m-top, $c-color) {
+        margin-top: $m-top;
+        color: $c-color;
+}
+
+    .container-productos{
+        margin-top: 200px;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+
+    .container-productos2{
+        margin-top: 100px;
+        
+        padding-right: 200px;
+    }
+
+
+    #p-tarjeta1{
+        @include card-productos(150px, white)
+    }
+
+    #p-tarjeta2{
+        @include card-productos(150px, white)
+    }
+
+    #catalogo-produ{
+        text-align: center;
+        margin: 100px;
+        color: $color-texto
+    }
+
+.card{
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	transform: $animacion;
+}

@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+  background: url(../assets/fondo/fondo-psico.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+.offcanvas-body {
+  background-color: rgb(21, 25, 29);
+}
+
+.alinear-logo {
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.container-productos {
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.container-productos2 {
+  margin-top: 100px;
+  padding-right: 200px;
+}
+
+#p-tarjeta1 {
+  margin-top: 150px;
+  color: white;
+}
+
+#p-tarjeta2 {
+  margin-top: 150px;
+  color: white;
+}
+
+#catalogo-produ {
+  text-align: center;
+  margin: 100px;
+  color: coral;
+}
+
+.card {
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+
+.card:hover {
+  transform: translateY(-3%);
+}
+
+.h1envios {
+  padding-top: 150px;
+  text-align: center;
+  color: coral;
+}
+
+.h2envios, .h3envios, .h4envios {
+  padding-top: 150px;
+  text-align: center;
+  color: #fff;
+}
+
+.Penvios1, .Penvios2, .Penvios3, .Penvios4 {
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.h1cambios {
+  padding-top: 150px;
+  text-align: center;
+  color: coral;
+}
+
+.h2cambios {
+  padding-top: 150px;
+  text-align: center;
+  color: #fff;
+}
+
+.Pcambios1, .Pcambios2 {
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+
+.form-area {
+	padding-top: 7%;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+	background: #252525;
+	padding: 200px 98px;
+}
+.left h2 {
+	font-family: poppins;
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+}
+.left h2 span {
+	font-weight: 100;
+}
+.single-form{
+    background: #fff;
+}
+.right {
+	padding: 70px 100px;
+	position: relative;
+}
+.right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 40%;
+	color: #fff;
+}
+.form-control {
+	border: 2px solid #000;
+}
+.right button {
+	border: none;
+	border-radius: 0;
+	background: #252525;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.right button:hover{
+    background-color: #252525;
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    .right i {
+	top: -52px;
+	transform: rotate(90deg);
+	left: 50%;
+}
+}
+
+@media (max-width:767px){
+    .left {
+  padding: 90px 15px;
+  text-align: center;
+}
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.right i {
+  top: -52px;
+  transform: rotate(90deg);
+  left: 46%;
+}
+    .right button {
+	width: 150px;
+	padding: 12px 0;
+}
+    
+}
